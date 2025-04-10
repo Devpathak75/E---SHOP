@@ -22,19 +22,10 @@
 	<!--Company Header Starting  -->
 	<div class="container-fluid text-center"
 		style="margin-top: 45px; background-color: #FF69B4; color: white; padding: 5px;">
-
-		<!-- Modified Section with Images and Title -->
-		<div style="display: flex; align-items: center; justify-content: center;">
-			<img src="images/left-logo.png" alt="Left Logo" style="height: 50px; margin-right: 15px;">
-			<div>
-				<h2 style="margin: 0;">E-Shop</h2>
-				<h6 style="margin: 0;">We specialize in Electronics</h6>
-			</div>
-			<img src="images/right-logo.png" alt="Right Logo" style="height: 50px; margin-left: 15px;">
-		</div>
-
+		<h2>E-Shop</h2>
+		<h6>We specialize in Electronics</h6>
 		<form class="form-inline" action="index.jsp" method="get">
-			<div class="input-group" style="margin-top: 10px;">
+			<div class="input-group">
 				<input type="text" class="form-control" size="50" name="search"
 					placeholder="Search Items" required>
 				<div class="input-group-btn">
@@ -176,6 +167,7 @@
 					<li><a href="adminStock.jsp">Stock</a></li>
 					<li><a href="shippedItems.jsp">Shipped</a></li>
 					<li><a href="unshippedItems.jsp">Orders</a></li>
+					<!-- <li><a href=""> <span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;Cart</a></li> -->
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="#">Update Items <span
 							class="caret"></span>
