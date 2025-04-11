@@ -21,10 +21,10 @@
 <body style="background-color: #F0FFF0;">
 
 	<!-- Left and Right Images -->
-	<div class="container-fluid text-center" style="margin-top: 10px;">
+	<div class="container-fluid text-center" style="margin-top: 60px;">
 		<div class="row">
 			<div class="col-sm-2">
-				<img src="logo-left.png" alt="Left Image" class="img-responsive" style="max-height: 100px;">
+				<img src="logo-left.png" alt="Left Image" class="img-responsive" style="max-height: 300px;">
 			</div>
 			<div class="col-sm-8">
 				<!--Company Header Starting  -->
@@ -33,7 +33,7 @@
 					<h6>We specialize in Electronics</h6>
 					<form class="form-inline" action="index.jsp" method="get">
 						<div class="input-group">
-							<input type="text" class="form-control" size="50" name="search"
+							<input type="text" class="form-control" size="40" name="search"
 								placeholder="Search Items" required>
 							<div class="input-group-btn">
 								<input type="submit" class="btn btn-danger" value="Search" />
@@ -47,7 +47,7 @@
 				<!-- Company Header Ending -->
 			</div>
 			<div class="col-sm-2">
-				<img src="logo-right.png" alt="Right Image" class="img-responsive" style="max-height: 100px;">
+				<img src="logo-right.png" alt="Right Image" class="img-responsive" style="max-height: 600px;">
 			</div>
 		</div>
 	</div>
@@ -137,7 +137,7 @@
 						style="margin: 0px; padding: 0px;" id="mycart"><i
 							data-count="<%=notf%>"
 							class="fa fa-shopping-cart fa-3x icon-white badge"
-							style="background-color: #333; margin: 0px; padding: 0px; padding-bottom: 0px; padding-top: 5px;">
+							style="background-color: #333; margin: 0px; padding: 0px; padding-bottom: 0px; padding-top: 3px;">
 						</i></a></li>
 					<%
 					}
